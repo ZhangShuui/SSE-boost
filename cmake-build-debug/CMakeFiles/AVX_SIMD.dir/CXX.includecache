@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zsr/CLionProjects/SSE SIMD/main.cpp
+iostream
+-
+random
+-
+immintrin.h
+-
+sys/time.h
+-
+
