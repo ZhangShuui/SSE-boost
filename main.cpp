@@ -44,7 +44,7 @@ void GaussElimi(){
             Data[j][i] = 0.0;
         }
     }
-}//不对齐
+}//不对齐版本代码使用_mm_loadu_ps,对齐版本的代码使用_mm_load_ps
 void display(){
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
